@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mavendemo" />
+        <module name="HelloMaven" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="HelloMaven" target="1.5" />
       <module name="mavendemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
